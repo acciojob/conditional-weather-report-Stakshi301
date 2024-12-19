@@ -8,7 +8,7 @@ const App = () => {
   const [info, setinfo] = useState(def);
   useEffect(() => {
     setTimeout(() => {
-      setinfo({ temperature: 25, conditions: "sunny" });
+      setinfo({ temperature: 25, conditions: "Sunny" });
     }, 1000);
   });
   return (
