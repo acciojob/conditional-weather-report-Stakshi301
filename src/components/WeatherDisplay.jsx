@@ -10,5 +10,4 @@ const WeatherDisplay=(props)=>{
         </div>
     )
 }
-
 export default WeatherDisplay
