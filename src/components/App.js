@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from "react";
 import './../styles/App.css';
-import WeatherDisplay from "../../../assignmentDemo/src/WeatherDisplay";
+import WeatherDisplay from "./WeatherDisplay";
 
 const App = () => {
   const[info,setinfo]=useState(def)
